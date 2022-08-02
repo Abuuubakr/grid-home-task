@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif
+}
+.sayt{
+    display: grid;
+    grid-template-columns: 19%  81%;
+}
+nav{
+    height: 100vh;
+    width: 100%;
+    background-color: #ff0000;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.h3{
+    font-size: 18px;
+    padding: 40px;
+}
+nav ul{
+    margin-top: 20px;
+    padding: 10px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600;
+    padding: 10px 180px 10px 20px;
+}
+nav ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.big{
+    font-size: 64px;
+    font-weight: 500;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    
+}
+.head{
+    margin-left: 40px;
+}
+.red{
+    font-size: 48px;
+    color: red;
+}
+.hr{
+    width: 50px;
+    color: #ff0000;
+    height: 0.1px;
+    border-bottom: 7px solid red;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.images{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap:  10px;
+}
+.d1 img{
+    width: 100%;
+    opacity: 0.70;
+}
+.d1 img:hover{
+    opacity: 1;
+}
+.Services{
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+.first{
+    margin-bottom: 20px;
+}
+.designers{
+    margin-left: 40px;
+}
+.bold{
+    font-weight: bold;
+}
+.profiles{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+}
+.d2{
+    background-color: #f1f1f1;
+    line-height: 40px;
+}
+.d2 img{
+    width: 100%;
+}
+.packages{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.tables{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+}
+.basic, .Premium{
+    text-align: center;
+    border: 1px solid gray;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.br{
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+}
+.basic h1{
+    background-color: gray;
+    color: white;
+    padding: 30px;
+}
+.Premium h1{
+    background-color: #ff0000;
+    color: white;
+    padding: 30px;
+}
+.basic p, .Premium p{
+    background-color: #f1f1f1;
+    font-family: "Poppins", sans-serif;
+}
+.basic span, .Premium span{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.basic button{
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    font-size: 1.3em;
+    border: none;
+}
+.basic button:hover{
+    background-color: black;
+    color: white;
+}
+.Premium button{
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    font-size: 1.3em;
+    border: none;
+    background-color: #ff0000;
+    color: white;
+}
+.Premium button:hover{
+    background-color: black;
+}
+.contact p{
+    margin-bottom: 20px;
+}
+.contact input{
+    margin-bottom: 20px;
+    width: 90%;
+    height: 40px;
+}
+.contact button{
+    padding: 10px;
+    width: 90%;
+    color: white;
+    background-color: #ff0000;
+    margin-bottom: 40px;
+}
+footer{
+    height: 80px;
+    background-color: #f1f1f1;
+    text-align: end;
+    padding: 30px;
+}
